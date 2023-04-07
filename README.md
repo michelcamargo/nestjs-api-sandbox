@@ -39,10 +39,14 @@ $ npm install
 ```bash
 # Desenvolvimento
 $ npm run start
+```
 
+```bash
 # Desenvolvimento em watch mode
 $ npm run start:dev
+```
 
+```bash
 # Produção
 $ npm run start:prod
 ```
@@ -52,10 +56,14 @@ $ npm run start:prod
 ```bash
 # Testes unitários
 $ npm run test
+```
 
+```bash
 # Testes ponta a ponta (e2e)
 $ npm run test:e2e
+```
 
+```bash
 # Testes metrificados
 $ npm run test:cov
 ```
