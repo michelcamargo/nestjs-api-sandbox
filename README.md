@@ -5,7 +5,7 @@
 ## Descrição
 Aplicação back-end progressiva e escalável de finalidade educacional, voltada para o uso eficiente do paradigma SSR (server-side rendering).
 
----
+
 ## Considerações iniciais
 #### Tecnologias
 A base deste projeto faz uso de algumas tecnologias de terceiros que garantem seu funcionamento e integridade, são eles: 
@@ -25,7 +25,6 @@ O projeto requer algumas variáveis de ambiente e configurações outras configu
 Os arquivos ```.env.example``` e ```docker-compose.yml.example``` podem ser encontrados na raíz do projeto e 
 devem ser usados como exemplo de configuração do ambiente para execução da aplicação.
 
----
 
 ## Instalação da aplicação
 
@@ -51,6 +50,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+
 ## Scripts de teste
 
 ```bash
@@ -67,8 +67,6 @@ $ npm run test:e2e
 # Testes metrificados
 $ npm run test:cov
 ```
-
----
 
 
 ## Licença
