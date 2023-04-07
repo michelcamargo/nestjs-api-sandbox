@@ -2,11 +2,11 @@
 #### Aplicação REST API [Nest.js](https://github.com/nestjs/nest) baseada em Node.js
 
 
-### Descrição
+## Descrição
 Aplicação back-end progressiva e escalável de finalidade educacional, voltada para o uso eficiente do paradigma SSR (server-side rendering).
 
 ---
-### Considerações iniciais
+## Considerações iniciais
 #### Tecnologias
 A base deste projeto faz uso de algumas tecnologias de terceiros que garantem seu funcionamento e integridade, são eles: 
 
@@ -27,14 +27,14 @@ devem ser usados como exemplo de configuração do ambiente para execução da a
 
 ---
 
-### Instalação da aplicação
+## Instalação da aplicação
 
 ```bash
 $ npm install
 ```
 
 
-### Scripts de execução
+## Scripts de execução
 
 ```bash
 # Desenvolvimento
@@ -51,7 +51,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-### Scripts de teste
+## Scripts de teste
 
 ```bash
 # Testes unitários
@@ -71,5 +71,5 @@ $ npm run test:cov
 ---
 
 
-### Licença
+## Licença
 [Michel Camargo](https://kamilmysliwiec.com) - 2023 - Todos os direitos reservados.
