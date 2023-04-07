@@ -5,9 +5,9 @@
 ### Descrição
 Aplicação back-end progressiva e escalável de finalidade educacional, voltada para o uso eficiente do paradigma SSR (server-side rendering).
 
-
+---
 ### Considerações iniciais
-* #### Tecnologias
+#### Tecnologias
 A base deste projeto faz uso de algumas tecnologias de terceiros que garantem seu funcionamento e integridade, são eles: 
 
 > **[Prisma](https://www.prisma.io/)**: Gerencia e controla a base de dados, configurada atualmente como [Postgresql](https://www.postgresql.org/about/)
@@ -18,13 +18,14 @@ A base deste projeto faz uso de algumas tecnologias de terceiros que garantem se
 > <br>
 > **[Docker](https://www.docker.com/)**: Virtualiza sistemas operacionais para entrega da aplicação em pacotes (containers)
 
-* #### Configuração de ambiente:
-O projeto requer algumas variáveis de ambiente para funcionamento e são definidas nos arquivos 
+#### Configuração de ambiente:
+O projeto requer algumas variáveis de ambiente e configurações outras configurações sensíveis para funcionamento, as quais são definidas nos arquivos 
 ```.env``` e ```docker-compose.yml``` localizados no diretório raíz do projeto.
 <br>
 Os arquivos ```.env.example``` e ```docker-compose.yml.example``` podem ser encontrados na raíz do projeto e 
 devem ser usados como exemplo de configuração do ambiente para execução da aplicação.
 
+---
 
 ### Instalação da aplicação
 
@@ -46,7 +47,6 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-
 ### Scripts de teste
 
 ```bash
@@ -59,6 +59,8 @@ $ npm run test:e2e
 # Testes metrificados
 $ npm run test:cov
 ```
+
+---
 
 
 ### Licença
