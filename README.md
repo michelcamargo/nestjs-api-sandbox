@@ -1,16 +1,16 @@
-# REST API NEST.js
+## REST API NEST.js
 
 ## Descrição
 
 Aplicação REST API progressiva de finalidade educacional, implementada visando o uso eficiente e escalável de server-side utilizando [NestJS](https://github.com/nestjs/nest).
 
-## Instalação
+### Instalação da aplicação
 
 ```bash
 $ npm install
 ```
 
-## Iniciar aplicação
+### Scripts de execução
 
 ```bash
 # Desenvolvimento
@@ -23,7 +23,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Testes
+### Scripts de teste
 
 ```bash
 # Testes unitários
@@ -36,5 +36,5 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Licença
+### Licença
 [Michel Camargo](https://kamilmysliwiec.com) - 2023 - Todos os direitos reservados.
